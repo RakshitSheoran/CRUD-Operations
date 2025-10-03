@@ -3,6 +3,10 @@
 This project demonstrates CRUD (Create, Read, Update, Delete) operations using the JSONPlaceholder
  API. It highlights both functional API integration and UI/UX design skills, featuring a modern glass-like UI built with MUI and MUI Joy.
 
+📸 Screenshots
+
+<img width="1578" height="713" alt="image" src="https://github.com/user-attachments/assets/d0967d12-cb23-494a-a29f-5e0e9cd54fd6" />
+
 ## 🚀 Features
 ### 🔍 Read (GET)
 
@@ -57,7 +61,7 @@ MUI
 
 MUI Joy
 
-###⚡ Installation & Usage
+### ⚡ Installation & Usage
 
 Clone the repo:
 
@@ -74,12 +78,8 @@ Run the project (using live server or your dev setup):
 
 npm start
 
-📸 Screenshots
 
-<img width="1578" height="713" alt="image" src="https://github.com/user-attachments/assets/d0967d12-cb23-494a-a29f-5e0e9cd54fd6" />
-
-
-###💡 Learning Outcomes
+### 💡 Learning Outcomes
 
 Hands-on practice with REST APIs using Axios.
 
@@ -87,10 +87,10 @@ Implemented all CRUD operations in a real project.
 
 Showcased UI/UX skills with glassmorphism and responsive design using MUI & MUI Joy.
 
-###🤝 Contributing
+### 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues or submit PRs to enhance features or design.
 
-###📜 License
+### 📜 License
 
 This project is licensed under the MIT License.
