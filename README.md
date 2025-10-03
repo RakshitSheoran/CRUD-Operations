@@ -63,18 +63,15 @@ MUI Joy
 
 ### ⚡ Installation & Usage
 
-Clone the repo:
+1. Clone the repo:
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/RakshitSheoran/CRUD-Operations.git
 
-
-Install dependencies:
+2. Install dependencies:
 
 npm install
 
-
-Run the project (using live server or your dev setup):
+3. Run the project (using live server or your dev setup):
 
 npm start
 
