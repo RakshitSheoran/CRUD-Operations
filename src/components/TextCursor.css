@@ -1,0 +1,26 @@
+.text-cursor-container {
+  position: fixed;        /* cover entire viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;           /* full screen width */
+  height: 100vh;          /* full screen height */
+  pointer-events: none;   /* don’t block clicks on other elements */
+  z-index: 9999;          /* stay on top */
+}
+
+.text-cursor-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.text-cursor-item {
+  position: absolute;
+  user-select: none;
+  white-space: nowrap;
+  font-size: 1.875rem;
+  color: white;           /* make sure it contrasts your background */
+}
