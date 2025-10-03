@@ -4,6 +4,7 @@ import "./App.css";
 import Card from "./components/card.jsx";
 import Form from "./components/Form.jsx";
 import TextCursor from "./components/TextCursor.jsx";
+import DecryptedText from "./components/Heading.jsx";
 
 function App() {
   /// Array of all the posts
@@ -56,7 +57,17 @@ function App() {
         removalInterval={1}
         maxPoints={5}
       />
-
+      <div className="heading-container">
+        <DecryptedText
+          text="CRUD Operations"
+          speed={100}
+          maxIterations={20}
+          characters="ABCD1234!?"
+          className="revealed"
+          parentClassName="all-letters"
+          encryptedClassName="encrypted"
+        />
+      </div>
       <Form
         dataSet={dataSet}
         setDataSet={setDataSet}
@@ -64,7 +75,7 @@ function App() {
         setUpdateDataApi={setUpdateDataApi}
       ></Form>
       <div className="container">
-             {dataSet.map((item) => {
+        {dataSet.map((item) => {
           return (
             <Card
               key={item.id}
